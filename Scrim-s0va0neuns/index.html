@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body style = "background-color:violet;">
+        <div class="container">
+            <div>
+                <h3 style= "color:white;">HOME</h3>
+                <h1 id = "homeScore" style= "color:white;">0</h1>
+                <button onclick = "homeOne()" id = "homeAdd-one">+1</button>
+                <button onclick = "homeTwo()" id = "homeAdd-two">+2</button>
+                <button onclick = "homeThree()" id = "homeAdd-three">+3</button>
+                <br>
+                <button onclick = "resetHome()" id = "reset-home">RESET</button>
+            </div>
+            
+            <div>
+                <h3 style= "color:white;">GUEST</h3>
+                <h1 id = "guestScore" style= "color:white;">0</h1>
+                 <button onclick = "guestOne()" id = "guestAdd-one">+1</button>
+                <button onclick = "guestTwo()" id = "guestAdd-two">+2</button>
+                <button onclick = "guestThree()" id = "guestAdd-three">+3</button>
+                <br>
+                <button onclick = "resetGuest()" id = "reset-home">RESET</button>
+            </div>
+        </div>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
